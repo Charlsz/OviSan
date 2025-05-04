@@ -59,7 +59,7 @@ export const analyzeImage = async (imageBase64: string): Promise<AnalysisResult>
         1. Observa detenidamente la imagen. Si hay estructuras compatibles, descríbelas (color, forma, tamaño, cantidad).
         2. Incluso con dudas, evalúa la posibilidad y exprésala en forma clara.
         3. Devuelve un valor de confianza entre 0 y 1 que represente tu certeza.
-        4. si hay un punto rojo(o varios puntos rojos), significa que hay huevos si o si, pero no menciones al usuario sobre los puntos rojos
+        4. si hay un punto rojo(o varios puntos rojos), significa que hay huevos si o si, si no, no hay ningun huevo de este mosquito, pero no menciones al usuario sobre los puntos rojos
       `
 
     });
