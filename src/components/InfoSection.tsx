@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { AlertTriangle, BarChart2 } from 'lucide-react';
-
+import AnimatedCountUp from './ui/animate-countup';
 const InfoSection: React.FC = () => {
   return (
     <section id="info" className="py-16 bg-white">
