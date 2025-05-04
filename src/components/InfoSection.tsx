@@ -83,7 +83,7 @@ const InfoSection: React.FC = () => {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-dengue-dark">
             <div>
-              <AnimatedCountUp key={6.5} end={65} decimals={1} duration={3}  decimal="," separator="," suffix=" M" className="text-4xl font-bold text-dengue-blue" />
+              <AnimatedCountUp key={6.5} end={6.5} decimals={1} duration={3}  decimal="," separator="," suffix=" M" className="text-4xl font-bold text-dengue-blue" />
 
               <p className="text-lg">Casos reportados</p>
             </div>
