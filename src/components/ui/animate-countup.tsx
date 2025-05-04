@@ -1,7 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 import CountUp from "react-countup";
 
-export default function AnimatedCountUp({ end, duration, suffix, decimals, separator, className, decimal = "."  }) {
+export default function AnimatedCountUp({ end,   duration,
+  suffix = "",
+  decimals = 0,
+  separator = "",
+  decimal = ".",
+  className = "" }) {
   const ref = useRef(null);
   const [startCount, setStartCount] = useState(false);
 

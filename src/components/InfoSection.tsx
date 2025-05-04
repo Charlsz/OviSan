@@ -1,5 +1,4 @@
 import React from 'react';
-import CountUp from 'react-countup';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { AlertTriangle, BarChart2 } from 'lucide-react';
 

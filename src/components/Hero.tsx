@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
               Detecta huevos de Aedes Aegypti
             </h1>
             <p className="text-lg md:text-xl text-dengue-dark mb-6">
-              Utiliza nuestra herramienta con inteligencia artificial para identificar <span className="font-bold text-red-500">dengue</span>, zika, chikungunya y <span className="font-bold text-yellow-500">fiebre amarilla</span> y protege a tu comunidad.
+            Utiliza nuestra herramienta con inteligencia artificial para identificar <span className="font-bold text-red-500">dengue</span>, zika, chikungunya y <span className="font-bold text-yellow-500">fiebre amarilla</span> y protege a tu comunidad.
             </p>
             <div className="flex space-x-4">
               <Button
