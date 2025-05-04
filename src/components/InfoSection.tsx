@@ -2,6 +2,7 @@ import React from 'react';
 import CountUp from 'react-countup';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { AlertTriangle, BarChart2 } from 'lucide-react';
+import AnimatedCountUp from './ui/animate-countup';
 
 const InfoSection: React.FC = () => {
   return (
@@ -12,7 +13,7 @@ const InfoSection: React.FC = () => {
             Información sobre el Dengue
           </h2>
           <p className="text-lg text-dengue-dark/80 max-w-3xl mx-auto">
-            El dengue es una enfermedad viral transmitida por mosquitos que afecta a millones de personas cada año. 
+            El dengue es una enfermedad viral transmitida por mosquitos que afecta a millones de personas cada año.
             Conoce cómo identificar y prevenir la reproducción del mosquito Aedes Aegypti.
           </p>
         </div>
@@ -83,27 +84,20 @@ const InfoSection: React.FC = () => {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-dengue-dark">
             <div>
-              <p className="text-4xl font-bold text-dengue-blue">
-                <CountUp end={6.5} decimals={1} duration={3} suffix=" M" />
-              </p>
+              <AnimatedCountUp key={6.5} end={6.5} decimals={1} duration={3}  decimal="," separator="," suffix=" M" className="text-4xl font-bold text-dengue-blue" />
+
               <p className="text-lg">Casos reportados</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-dengue-orange">
-                <CountUp end={8000} duration={3} separator="," />
-              </p>
+            <AnimatedCountUp end={8000} duration={3} separator="." className="text-4xl font-bold text-dengue-orange" />
               <p className="text-lg">Muertes confirmadas únicamente en América</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-dengue-green">
-                <CountUp end={3900} duration={3} suffix=" M" />
-              </p>
+            <AnimatedCountUp end={3900} duration={3} separator="." suffix=" M" className="text-4xl font-bold text-dengue-green" />
               <p className="text-lg">Personas en riesgo</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-dengue-dark">
-                <CountUp end={4} duration={2} />
-              </p>
+            <AnimatedCountUp end={4} duration={2} className="text-4xl font-bold text-dengue-dark" />
               <p className="text-lg">Serotipos del virus</p>
             </div>
           </div>
@@ -119,9 +113,9 @@ const InfoSection: React.FC = () => {
           </h3>
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/3 mb-6 md:mb-0 md:pr-6">
-              <img 
-                src="/huevosmosquitos.jpg" 
-                alt="Huevos de Aedes Aegypti" 
+              <img
+                src="/huevosmosquitos.jpg"
+                alt="Huevos de Aedes Aegypti"
                 className="rounded-lg w-full h-auto shadow-md"
               />
             </div>
@@ -137,7 +131,7 @@ const InfoSection: React.FC = () => {
                 <li>Son resistentes a la sequía y pueden sobrevivir meses sin agua</li>
               </ul>
               <p className="mt-4 text-lg text-dengue-dark/80">
-                Nuestra herramienta de detección ayuda a identificar estos huevos en imágenes para 
+                Nuestra herramienta de detección ayuda a identificar estos huevos en imágenes para
                 una detección temprana y control efectivo.
               </p>
             </div>
