@@ -95,3 +95,5 @@ export const analyzeImage = async (imageBase64: string): Promise<AnalysisResult>
     };
   }
 };
+
+
