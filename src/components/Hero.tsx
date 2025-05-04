@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
           <div className="md:w-1/2 md:pl-8">
             <div className="relative rounded-xl overflow-hidden shadow-lg">
               <img 
-                src="mosquito.jpg" 
+                src="/mosquito.jpg" 
                 alt="Mosquito Aedes Aegypti" 
                 className="w-full h-auto"
               />

@@ -120,7 +120,7 @@ const InfoSection: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/3 mb-6 md:mb-0 md:pr-6">
               <img 
-                src="huevosmosquitos.jpg" 
+                src="/huevosmosquitos.jpg" 
                 alt="Huevos de Aedes Aegypti" 
                 className="rounded-lg w-full h-auto shadow-md"
               />
