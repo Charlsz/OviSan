@@ -85,19 +85,19 @@ const InfoSection: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-dengue-dark">
             <div>
               <AnimatedCountUp key={6.5} end={6.5} decimals={1} duration={3}  decimal="," separator="," suffix=" M" className="text-4xl font-bold text-dengue-blue" />
-
+ 
               <p className="text-lg">Casos reportados</p>
             </div>
             <div>
-            <AnimatedCountUp end={8000} duration={3} separator="." className="text-4xl font-bold text-dengue-orange" />
+            <AnimatedCountUp end={8000} duration={3} separator="." suffix="" decimals={0} className="text-4xl font-bold text-dengue-orange" />
               <p className="text-lg">Muertes confirmadas únicamente en América</p>
             </div>
             <div>
-            <AnimatedCountUp end={3900} duration={3} separator="." suffix=" M" className="text-4xl font-bold text-dengue-green" />
+            <AnimatedCountUp end={3900} duration={3} separator="." suffix=" M" decimals={0} className="text-4xl font-bold text-dengue-green" />
               <p className="text-lg">Personas en riesgo</p>
             </div>
             <div>
-            <AnimatedCountUp end={4} duration={2} className="text-4xl font-bold text-dengue-dark" />
+            <AnimatedCountUp end={4} duration={2} separator="" suffix="" decimals={0} className="text-4xl font-bold text-dengue-dark" />
               <p className="text-lg">Serotipos del virus</p>
             </div>
           </div>
@@ -107,11 +107,11 @@ const InfoSection: React.FC = () => {
         </div>
 
         {/* Sección existente: identificación de huevos */}
-        <div className="mt-12 p-6 bg-dengue-gray rounded-lg">
-          <h3 className="text-xl font-bold text-dengue-dark mb-4">
+        <div className="mt-12 p-6 py-8 bg-dengue-gray rounded-lg">
+          <h2 className="text-3xl md:text-4xl font-bold text-dengue-dark mb-4 text-center">
             ¿Cómo identificar los huevos de Aedes Aegypti?
-          </h3>
-          <div className="flex flex-col md:flex-row items-center">
+          </h2>
+          <div className="flex flex-col md:flex-row items-center md:mt-8">
             <div className="md:w-1/3 mb-6 md:mb-0 md:pr-6">
               <img
                 src="/huevosmosquitos.jpg"
