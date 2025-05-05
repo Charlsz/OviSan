@@ -1,6 +1,6 @@
 # OviScan
 
-**OviSan** es una aplicación web desarrollada con tecnologías modernas como [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/) y [TypeScript](https://www.typescriptlang.org/). Este proyecto fue generado utilizando la plataforma [Lovable](https://lovable.dev/), que facilita la creación y edición de aplicaciones web mediante prompts.
+**OviSan** es una aplicación web desarrollada con tecnologías modernas como [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/) y [TypeScript](https://www.typescriptlang.org/).
 
 ## 🚀 Tecnologías Utilizadas
 
@@ -44,4 +44,4 @@ Esto iniciará la aplicación en http://localhost:5173/ (puerto por defecto de V
 
 ## ✨ Personalización con Lovable
 
-Este proyecto fue generado con Lovable.dev. Puedes editar y personalizar la aplicación directamente desde la plataforma utilizando prompts. Accede al proyecto en Lovable para realizar modificaciones sin necesidad de editar el código manualmente.
+Puedes editar y personalizar la aplicación directamente desde la plataforma utilizando prompts. Accede al proyecto en Lovable para realizar modificaciones sin necesidad de editar el código manualmente.
